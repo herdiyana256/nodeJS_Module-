@@ -1,0 +1,298 @@
+
+NodeJS adalah lingkungan atau platform untuk mengeksekusi kode-kode yang ditulis dalam Javascript, yang dikenal dikenal dengan sebutan
+javascript run time environment (JRE) .
+dalam melaksanakan tugasnya, node js menggunakan versi 8 , yaitu mesin Javascript yang di produksi oleh Google.
+yang dimana V8 ini bertugas untuk mengubah kode javascript ke dalam BYTECODE.
+
+File bytecode inilah yang akan di eksekusi oleh NodeJS . 
+Proses eksekusi terhadap bytecode lebih cepat daripada eksekusi code javascript .
+
+untuk melihat hasil bytecode yang telah di hasilkan kita bisa menggunakan opsi : node --print-bytecode
+
+V8 ditulis dengan menggunakan bahasa C++ dan digunakan oleh Google dalam mengembangkan web browser google chrome.
+
+masing-masing aplikasi web browser memiliki mesin javascript yang berbeda.
+MOZILA FIREFOX menggunakan SpiderMonkey 
+APPLE SAFARI menggunakan JavascriptCore.
+GOOGLE CHROME menggunakan V8 . mesin ini lah yang juga digunakan oleh NODEJS.
+
+melalui NodeJS kita dapat menggunakan javascript sebagai bahasa pemograman untuk membuat semua
+tipe aplikasi :
+aplikasi console (command) - interface - CLI 
+aplikasi  berbasis GUI .
+aplikasi web
+aplikasi mobile  (android)
+Aplikasi IOT
+aplikasi mobile (IOS)
+Atau aplikasi sistem kontrol dan akses perangkat keras.
+
+NODEJS Pertama dibuat oleh RYAN DAHL pada tahun 2009 dan hanya bisa dijalankan oleh sistem operasi LINUX
+dan ditujukkan untuk mengembangkan program -program yang berkaitan dengan permasalahan berkaitan dengan 
+permasalahan-permasalahan jaringan komputer .
+tapi pada kenyataan saat ini NODEJS lebih banyak digunakan dalam proses pengembangan aplikasi web.
+
+NODEJS diyakini dapat memproses permintaan-permintaan yang dikirimkan oleh klien(web browser) dengan jumlah 
+performansi yang baik. 
+NODEJS digunakan oleh banyak pengembang untuk pembuatan aplikasi web sebagai alternatif dari bahasa pemograman 
+lain seperti PHP, Python, Ruby dan Pearl.
+
+
+x ≤ y berarti x kurang dari atau sama dengan y. x ≥ y berarti x lebih dari atau sama dengan y.
+
+pada promp(tanda >)  kita dapat menulis perintah-perintah javascript misalnya, seperti ini :
+
+> 1 + 1 
+> 2 
+>console.log("Node.js")
+Node.js
+undefined
+> 3 * 5 
+15
+> var x = 5 
+undefined
+> var i 
+undefined
+> for (i=0; i<x; i++) {
+    ... console.log(i)
+}
+0
+1
+2
+3
+4
+undefined
+> 
+
+KATA UNDEFINED YANG DITAMPILKAN PADA TERMINAL REPL MENUNJUKKAN BAHWA PERINTAH YANG DI EKSEKUSI TIDAK MENGEMBALIKAN NILAI.
+
+
+
+MENULIS EKPRESI 
+seperti yang telah anda lihat sebelum nya, terminal REPL dapat digunakan untuk menulis ekpresi-ekpresi aritmetika .
+layaknya kalkulator :
+> 9 * 11 
+> 99
+
+> (2+3) * (6-3)
+> 15 
+
+> 14 % 4 
+2
+
+> 14 / 4 
+3.5
+
+> 2 ** 6 
+64
+> 
+
+
+MENGGUNAKAN TANDA UNDERSCORE '
+tanda underscore (_) akan menyimpan nilai terakhir yang di hasilkan . perhatikan contoh berikut :
+> 2 * 3
+6 
+
+> _ * _ 
+36
+> 
+
+pada contoh diatas, tanda _ akan menyimpan nilai 6, yaitu nilai yang di hasilkan oleh operasi perkalian 2 dan 3.
+
+
+MENGGUNAKAN VARIABEL
+variable dapat di definisikan dengan atau tanpa kata kunci var, jika di definisikan menggunakan kata kunci VAR,
+Maka nilai dari variabel tersebut tidak akan langsung di tampilkan ke layar.
+Nilai Baru tampil ketika memanggil variabel tersebut, perhatikan perbedaan antara dua baris kode berikut : 
+
+> a = 3 
+> 3
+
+> var b  = 4 
+> undefined
+
+pada contoh diatas variable a didefinisikan tanpa menggunakan kata kunci var.
+oleh karena itu nilai nya langsung di definisikan di layar terminal. 
+Variabel yang di definisikan tersebut selanjutnya dapat dipanggil sesuai kebutuhan, misalnya untuk perhitungan 
+dan sebagai nya : 
+ 
+ > a = 3 
+ > 3 
+
+ > var b = 4 
+ > UNDEFINED
+ >
+
+
+ > a * b 
+ > 12 
+
+> 2 * (a+b)
+> 14
+
+karena nilai sebelum nya adalah 7  maka saat 2 * 7 = 14 
+
+
+> console.log("Nilai a: "+ a);
+Nilai a : 3 
+undefined 
+> 
+
+
+PERINTAH YANG TERDIRI DARI BEBERAPA BARIS 
+Terminal REPL juga mendukung perintah yang terdiri dari beberapa baris, misalnya untuk membuat blok pemilihan 
+dan pengulangan.
+
+> var a = 10 
+> undefined
+
+> if (a > 0) {
+    console.log(a + "adalah bilangan positive")
+}else {
+    console.log(a + "bukan bilangan positive")
+}
+> outpout : 10 adalah bilangan positive 
+undefined
+
+> var i = 1 
+undefined
+
+> while (i <== 3) {
+        console.log("Baris ke-" + i)
+        i++
+        
+}
+
+
+output : 
+Baris k-1 
+Baris ke-2
+Baris ke-3
+
+
+example II : 
+
+var b = 15 
+undefined
+> while (b <= 30) {
+    console.log("Baris ke-" + b)
+    b++
+}
+
+output : 
+Baris ke -15
+Baris ke -16
+Baris ke -17
+Baris ke -18
+Baris ke -19
+Baris ke -20
+Baris ke -21
+Baris ke -22
+Baris ke -23
+Baris ke -24
+Baris ke -25
+Baris ke -26
+Baris ke -27
+Baris ke -28
+Baris ke -29
+Baris ke -30
+30
+
+
+MEMBUAT FUNGSI : 
+kita juga dapat mendefinisikan sebuah fungsi di terminal REPL 
+
+example : 
+> function coba (a,b)  {
+        return a + b
+}
+undefined
+>
+> // memanggil fungsi
+undefined
+> hasil  = tambah (13,86)
+99 
+> hasil 
+99 
+> tambah (10,20) 
+30 
+>
+
+
+example II : 
+
+function operator (a,b,c,d) {
+    return a * b * c * d 
+}
+> undefined
+> // memanggil function 
+
+> hasil = operator (10,20,30,40)
+> 300000
+> hasil 
+30000
+
+> operator (10.20,30,40)
+30000
+> 
+
+
+MEMBUAT OBJECT 
+Terminal REPL juga mendukung pembuatan object, seperti yang ditujukkan oleh contoh kode dibawah ini: 
+
+> var obj = new Object ()
+undefined
+
+> obj.alas = 3 
+> 3 
+
+
+> obj.tinggi  = 5 
+5 
+
+> obj.luas = function () {
+    return (obj.alas * obj.tinggi) /2 
+}
+// [(Function anonymous)] 
+> memanggil metode luas () 
+
+> obj.luas () 
+15 
+
+
+Pada contoh diatas kita membuat Object dengan nama obj  yang merepresentasikan objek segitiga .
+Object tersebut memiliki dua property alas dan tinggi dan satu metode luas ()
+
+
+
+PERINTAH -PERINTAH dalam terminal REPL ( Read-eval-print-loop) :
+Control + c = keluar dari perintah yang aktif 
+Control + C (2X) = keluar dari terminal REPL 
+Control + D = keluar dari terminal REPL 
+Tombol panah atas / bawah : Menampilkan perintah sebelum nya atau sesudah nya 
+Tombol tab : melengkapi perintah yang ditulis 
+.help : menampilkan bantuan dari daftar perintah yang ada 
+.break : keluar dari perintah yang terdiri dari beberapa baris 
+.clear : sama seperti .break 
+.save NamaFile : Menyimpan perintah didalam terminal REPL  ke file . 
+.load NamaFile : Memuat perintah dari file ke dalam Terminal REPL . 
+
+
+MENGHENTIKAN TERMINAL REPL 
+menggunakan control +  c
+
+MEMBUAT APLIKASI NODE JS 
+Meskipun terminal REPL hanya membantu kita menguji perintah-perintah javascript namun aplikasi NodeJS selalu 
+ditulis dalam bentuk file . 
+selanjutnya file tersebut akan di eksekusi oleh node js 
+
+
+
+
+
+
+
+
+
+
+
+
