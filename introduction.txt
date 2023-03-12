@@ -331,7 +331,6 @@ untuk menjalankan file js di nodemon bisa kita gunakan perintah : nodemon ....fi
 ===================================================================================================================
 
 
-BAHASA JAVASCRIPT (ECMASCRIPT 6)
 
 
 
