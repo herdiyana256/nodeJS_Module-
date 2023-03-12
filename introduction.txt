@@ -1,3 +1,17 @@
+a. beberapa paket npm yang sering digunakan oleh para pengembang Node.js adalah:
+
+Express - kerangka kerja Node.js yang populer untuk membuat aplikasi web dan API
+Mongoose - ODM (Object-Document Mapper) MongoDB untuk mempermudah mengakses database MongoDB
+Body-parser - paket middleware untuk mengambil data dari form HTML dan membuatnya tersedia di dalam request.body pada server side
+Nodemon - paket yang membantu dalam memantau perubahan file dan secara otomatis merestart server saat terjadi perubahan
+Moment - paket untuk memanipulasi tanggal dan waktu di Node.js
+Async - paket untuk melakukan operasi asynchronous dengan lebih mudah dan terstruktur
+Axios - paket untuk melakukan HTTP request ke API dari server side
+Dotenv - paket untuk memuat variabel lingkungan (environment variables) dari file .env ke dalam process.env
+Lodash - paket utilitas untuk memanipulasi data di Node.js
+Socket.io - paket untuk membuat aplikasi real-time dengan memungkinkan komunikasi dua arah antara server dan klien melalui protokol WebSocket
+
+
 
 NodeJS adalah lingkungan atau platform untuk mengeksekusi kode-kode yang ditulis dalam Javascript, yang dikenal dikenal dengan sebutan
 javascript run time environment (JRE) .
@@ -284,6 +298,55 @@ MEMBUAT APLIKASI NODE JS
 Meskipun terminal REPL hanya membantu kita menguji perintah-perintah javascript namun aplikasi NodeJS selalu 
 ditulis dalam bentuk file . 
 selanjutnya file tersebut akan di eksekusi oleh node js 
+
+
+MENGENAL PROGRAM NPM 
+program NPM merupakan program manajer paket (package manager) standart di dalam Javascript , yang memiliki  cara kerja
+seperti pip didalam python, gem, didalam ruby maupun composer didalam PHP.
+dengan NPM, kita dapat melakukan instalasi suatu paket / modul atau pustaka (library) tertentu dengan mudah .
+
+Jika modul yang kita pasang memiliki ketergantungan dengan modul-modul lain , maka npm secara otomatis akan memasang juga 
+modul modul yang di butuhkan . 
+Contoh : penggunakan npm untuk melakukan instalasi mpdul express (framework untuk Node.JS) adalah sebagai berikut : 
+
+$ npm i express 
+
+
+
+MENGENAL PROGRAM NODEMON
+pada saat pembuatan aplikasi berlangsung kita akan banyak melakukan perubahan terhadap kode program .
+Untuk menguji hasil dari perubahan tersebut kita perlu menjalankan ulang aplikasi agar servwr tersebut dapat 
+membaca code terbaru . 
+Jika Anda tidak terlalu nyaman dengan pekerjaan seperti ini , maka anada dapat menggunakan program nodemon : 
+Https://www.nodemon/io/ 
+Program ini akan memonitor perubahan yang terjadi pada kode dan menjalankan ulang aplikasi secara otomatis. dengan demikian,
+anda tidak perlu menjalankan dan menghentikan splikasi secara berulang-ulang.
+
+
+$ npm  install -g nodemon
+
+untuk menjalankan file js di nodemon bisa kita gunakan perintah : nodemon ....file.js 
+
+
+===================================================================================================================
+
+
+BAHASA JAVASCRIPT (ECMASCRIPT 6)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
