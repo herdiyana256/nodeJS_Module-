@@ -1,0 +1,25 @@
+FULL STACK DEVELOPER (ROADMAP)
+
+WEB FONDATIONS -> HTML 5 -> CSS 3 ->
+BOOTSTRAP -> JAVASCRIPT -> NPM / NPM SCRIPTS  ->
+GIT GITHUB -> REACT.JS -> NODE.JS ->
+DEVELOPER ENVIRONMENT -> DATABASE 
+
+
+
+
+*Untuk menjadi ahli developer web dan mobile developer, Anda dapat melakukan langkah-langkah berikut:
+
+1.Pelajari dasar-dasar pemrograman: Untuk menjadi developer, Anda perlu mempelajari dasar-dasar pemrograman. Beberapa bahasa pemrograman yang penting untuk dipelajari adalah HTML, CSS, JavaScript, dan Python.
+
+2.Ambil kursus atau pelatihan: Ada banyak kursus dan pelatihan online yang tersedia untuk belajar pemrograman dan pengembangan web dan mobile. Anda dapat memulai dengan kursus online gratis atau berbayar untuk mempelajari dasar-dasar pemrograman.
+
+3.Praktikkan apa yang Anda pelajari: Setelah Anda mempelajari dasar-dasar pemrograman, mulailah berlatih dan mencoba membuat proyek-proyek sederhana. Praktik membuat aplikasi dan situs web kecil akan membantu Anda memperkuat pemahaman Anda tentang bahasa pemrograman yang telah dipelajari.
+
+4.Ikuti komunitas developer: Bergabunglah dengan komunitas developer online seperti forum, grup Facebook, atau komunitas Slack. Anda akan mendapatkan dukungan dan bantuan dari para developer yang lebih berpengalaman serta dapat menemukan kesempatan untuk belajar lebih lanjut.
+
+5.Pelajari lebih banyak tentang pengembangan web dan mobile: Teruslah belajar dan mengikuti tren terbaru dalam pengembangan web dan mobile. Ada banyak sumber daya online seperti buku, blog, dan podcast yang dapat membantu Anda mengembangkan keterampilan Anda.
+
+6.Buat portofolio: Buatlah portofolio untuk menunjukkan keterampilan Anda. Anda dapat membuat situs web sederhana atau aplikasi mobile yang menunjukkan keterampilan Anda dalam pengembangan web dan mobile.
+
+7.Cari pekerjaan atau proyek freelance: Setelah Anda memperoleh keterampilan yang cukup, Anda dapat mencari pekerjaan sebagai developer web atau mobile. Anda juga dapat mencari proyek freelance untuk membangun portofolio Anda dan meningkatkan pengalaman kerja Anda.

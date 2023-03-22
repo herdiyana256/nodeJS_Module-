@@ -177,7 +177,6 @@ undefined
     console.log("Baris ke-" + b)
     b++
 }
-
 output : 
 Baris ke -15
 Baris ke -16
@@ -284,6 +283,32 @@ MEMBUAT APLIKASI NODE JS
 Meskipun terminal REPL hanya membantu kita menguji perintah-perintah javascript namun aplikasi NodeJS selalu 
 ditulis dalam bentuk file . 
 selanjutnya file tersebut akan di eksekusi oleh node js 
+
+
+
+KONSEP DASAR NODE JS : 
+1. PEMAHAMAN KONSEP DASAR NODE JS 
+Javascript,asynchronous programming, dan event-driven  programming. 
+
+
+2. INSTALASI NODE JS
+
+3.MENGGUNAKAN NODE.JS CLI
+
+4.MEMPELAJARI MODUL CORE NODE.JS
+
+5.MEMPELAJARI NPM (Node Package Manager)
+
+6.MEMPELAJARI FRAMEWORK  NODE.JS
+
+7.MEMPELAJARI DATABASE DAN ORM 
+
+8.MEMPELAJARI asynchronous Programming 
+
+9. MEMPELAJARI  TESTING DAN DEBUGGING
+
+10.MEMPELAJARI  DEPLOYMENT  DAN SCALING 
+
 
 
 
